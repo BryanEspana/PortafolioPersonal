@@ -1,34 +1,61 @@
 {
-  "hash": "41f25fc4",
-  "configHash": "14cf17dd",
-  "lockfileHash": "25fea0e3",
-  "browserHash": "4fcbe840",
+  "hash": "f8eec8d9",
+  "configHash": "875754a1",
+  "lockfileHash": "b0dd01a5",
+  "browserHash": "9e563bb4",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "80fdf5cf",
+      "fileHash": "962e7a7c",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "9f01c312",
+      "fileHash": "85fc04cb",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "9dfad97f",
+      "fileHash": "336581bb",
+      "needsInterop": false
+    },
+    "primeng/button": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-button.mjs",
+      "file": "primeng_button.js",
+      "fileHash": "1428f404",
+      "needsInterop": false
+    },
+    "primeng/checkbox": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-checkbox.mjs",
+      "file": "primeng_checkbox.js",
+      "fileHash": "0ee8c2d7",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "d295cbf6",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-P5WB54LL": {
-      "file": "chunk-P5WB54LL.js"
+    "chunk-ONMQSCFB": {
+      "file": "chunk-ONMQSCFB.js"
     },
-    "chunk-BNOYPYPL": {
-      "file": "chunk-BNOYPYPL.js"
+    "chunk-NABLPBDE": {
+      "file": "chunk-NABLPBDE.js"
+    },
+    "chunk-R7Q7F6GL": {
+      "file": "chunk-R7Q7F6GL.js"
+    },
+    "chunk-73KV7I25": {
+      "file": "chunk-73KV7I25.js"
+    },
+    "chunk-IIXUBVVP": {
+      "file": "chunk-IIXUBVVP.js"
     }
   }
 }
