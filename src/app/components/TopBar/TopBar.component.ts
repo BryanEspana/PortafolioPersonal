@@ -35,12 +35,12 @@ export class TopBarComponent implements OnInit {
 
   ngOnInit(): void {
     this.value = this.getStoredLanguage() || 'espaniol';
-    this.setTexts(this.value);
   }
 
   onLanguageChange(): void {
     this.storeLanguage(this.value);
     this.setTexts(this.value);
+    window.location.reload();
   }
 
   setTexts(language: string): void {

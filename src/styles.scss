@@ -36,6 +36,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .p-button-group .p-button:last-of-type:not(:only-of-type), .p-button-group p-button:last-of-type:not(:only-of-type) .p-button, .p-buttonset .p-button:last-of-type:not(:only-of-type), .p-buttonset p-button:last-of-type:not(:only-of-type) .p-button {
