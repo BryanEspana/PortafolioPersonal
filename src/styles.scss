@@ -3,6 +3,17 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
+
+
+:root {
+    --color-primary: #222831 !important;
+    --color-primary-dark: #31363F;
+    --color-secondary: #76ABAE;
+    --color-secondary-dark: #002434;
+    --color-tertiary: #FFFFFF;
+    --color-tertiary-dark: #E9EAEB;
+    --color-background: white;
+  }
 /* Order */
 @layer reset, primeng;
 
@@ -12,6 +23,33 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.margin2{
-    margin: 2rem;
+.marginComplete{
+    margin: 2rem 15%;
+}
+
+button{
+    background: var(--color-primary) !important;
+    border: var(--color-primary) !important;
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-button-group .p-button:last-of-type:not(:only-of-type), .p-button-group p-button:last-of-type:not(:only-of-type) .p-button, .p-buttonset .p-button:last-of-type:not(:only-of-type), .p-buttonset p-button:last-of-type:not(:only-of-type) .p-button {
+ 
+}
+
+.p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover {
+    background: var(--color-secondary);
+    border: var(--color-secondary);
+    color: white;
+}
+
+.p-selectbutton .p-button.p-highlight {
+    background: var(--color-primary);
+    border: var(--color-primary);
+    color: white;
 }

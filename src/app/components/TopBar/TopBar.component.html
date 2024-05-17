@@ -1,12 +1,12 @@
-<div class="displayrow margin2">
-  <p-avatar 
-  icon="pi pi-user" 
-  styleClass="mr-2" 
-  size="large" 
-  [style]="{ 'background-color': '#ece9fc', color: '#2a1261' }" 
-  shape="circle" />
-
-  <div>
+<div class="displayrow marginComplete">
+  <img src="/assets/logo.png" class="imgLogo">
+  <div class="displayrow">
+    <p-selectButton 
+    [options]="stateOptions" 
+    [(ngModel)]="value" 
+    optionLabel="label" 
+    optionValue="value" 
+    (onChange)="onLanguageChange()"/>
     <p-button label="Contactame" [rounded]="true" />
 
   </div>
