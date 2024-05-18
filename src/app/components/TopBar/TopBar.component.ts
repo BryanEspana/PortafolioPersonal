@@ -69,4 +69,7 @@ export class TopBarComponent implements OnInit {
       localStorage.setItem('selectedLanguage', language);
     }
   }
+  GoGithub(){
+    window.open('https://github.com/BryanEspana', '_blank');
+  }
 }

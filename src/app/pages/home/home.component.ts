@@ -6,6 +6,7 @@ import { ToastModule } from 'primeng/toast';
 import { ButtonModule } from 'primeng/button';
 import { DeveloperCardsComponent } from '../../components/developerCards/developerCards.component';
 import { DeveloperProyectsComponent } from '../../components/developerProyects/developerProyects.component';
+import { CurriculumPageComponent } from '../../components/CurriculumPage/CurriculumPage.component';
 
 export interface Skill{
   icon: string;
@@ -28,6 +29,7 @@ export interface DeveloperCard {
   imports: [
     DeveloperCardsComponent,
     DeveloperProyectsComponent,
+    CurriculumPageComponent,
     ProgressBarModule,
     ToastModule,
     ButtonModule,

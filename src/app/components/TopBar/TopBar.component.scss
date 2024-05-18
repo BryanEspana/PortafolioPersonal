@@ -8,3 +8,12 @@
 .p-buttonset {
     background: var(--color-primary) !important;
 }
+
+.iconTab{
+    font-size: 40px;
+    color: var(--color-primary);
+}
+.iconTab:hover{
+    color: var(--color-secondary);
+    cursor: pointer;
+}

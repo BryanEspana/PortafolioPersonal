@@ -35,6 +35,11 @@ button{
     background: var(--color-primary) !important;
     border: var(--color-primary) !important;
 }
+button:hover{
+    background: var(--color-secondary) !important;
+    border: var(--color-secondary) !important;
+    color: var(--color-primary);
+}
 
 .centerDiv{
     display: flex;
