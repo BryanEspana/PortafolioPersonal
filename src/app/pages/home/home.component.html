@@ -18,33 +18,20 @@
     </div>
   </div>
 
-  <div class="divOfCards">
-  @for (card of developerCards; track developerCards){
-    <div class="card">
-      <div class="card-body">
-        <div class="iconCard">
-          <i class="{{card.icon}}"></i>
-        </div>
-        <h5 class="card-title">{{card.title}}</h5>
-        <p class="card-text">{{card.description}}</p>
-        <div class="span">Conocimientos Básicos</div>
-        <div class="skills">
-          @for (skill of card.basicSkills; track skill){
-            <p>{{skill}}</p>
-          }
-        </div>
-        <div class="span">Frameworks:</div>
-        <div class="skills">
-          @for (skill of card.generalSkills; track skill){
-            <p>{{skill}}</p>
-          }
+  <app-developerCards></app-developerCards>
+
+    <div>
+      <h1> My Recent Work</h1>
+      <div class="cardWork">
+        <img src="/assets/proyects/filpro.png" class="imgWork">
+        <div class="overlay">
+          <div class="text">
+            <h2>FilPro</h2>
+            <p>Portal de servicios de facturación electronica.</p>
+            <p-button label="View proyect" [rounded]="true" />          
+          </div>
         </div>
       </div>
-    </div>
-
-  }
-    
-    
     </div>
     
 </div>

@@ -14,7 +14,7 @@ p{
     object-fit: cover;
     object-position: top;
     border-radius: 100%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     border: 5px solid var(--color-secondary);
 }
 .circleImg{
@@ -22,7 +22,7 @@ p{
     height: 320px;
     object-fit: cover;
     border-radius: 100%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     border: 10px solid var(--color-primary);
 }
 .circleImg2{
@@ -47,7 +47,7 @@ p{
 }
 .DivFondo{
     background-color: var(--color-primary);
-    padding: 5rem 4rem;
+    padding: 8rem 4rem;
     h1{
         color: white;
         margin-bottom: 2rem;
@@ -68,11 +68,101 @@ p{
 }
 .card-body{
     margin-top: 1rem !important;
+    height: 500px !important;
 }
 
 .skills{
+    justify-self: start;
+    justify-content: start;
     p{
         margin: 0.5rem;
         color: var(--color-primary);
     }
 }
+.center{
+    justify-content: center !important;
+}
+.iconSkill{
+    font-size: 20px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color: var(--color-primary);
+}
+.black{
+    color: black !important;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.cardWork {
+    position: relative;
+    background-color: var(--color-background);
+    color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 1rem 2rem;
+    overflow: hidden;
+    align-items: start;
+  }
+  
+  .imgWork {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .cardWork:hover .imgWork {
+    opacity: 0.8;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .cardWork:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    text-align: center;
+    color: white;
+  }
+  
+  .text h2 {
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  
+  .text p {
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  
+  .text button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+  }
+  
+  .text button:hover {
+    background-color: var(--color-primary-dark);
+  }
+  
