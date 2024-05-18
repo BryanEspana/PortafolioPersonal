@@ -47,12 +47,32 @@ p{
 }
 .DivFondo{
     background-color: var(--color-primary);
-    padding: 4rem;
+    padding: 5rem 4rem;
     h1{
         color: white;
         margin-bottom: 2rem;
     }
     p{
         color: white;
+    }
+}
+
+.divOfCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+.card-body{
+    margin-top: 1rem !important;
+}
+
+.skills{
+    p{
+        margin: 0.5rem;
+        color: var(--color-primary);
     }
 }
