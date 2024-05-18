@@ -104,3 +104,23 @@ button{
     margin: auto;
     margin-bottom: 1rem;
 }
+
+
+.divOfCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.divOfCards2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
