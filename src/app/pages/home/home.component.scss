@@ -2,5 +2,57 @@
     margin-top: 2rem;
 }
 h1{
-    font-size: 38px;
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+}
+
+.imgAvatar{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    border: 5px solid var(--color-secondary);
+}
+.circleImg{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+    border: 10px solid var(--color-primary);
+}
+.circleImg2{
+    position: relative;
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 10px solid var(--color-background);
+    margin-bottom: 5rem;
+
+}
+.barra{
+    background-color: var(--color-primary);
+    position: absolute;
+    width: 100vh;
+    top: 108px;
+    height: 13vh;
+    right: 0;
+    left: -290px;
+    z-index: -10;
+}
+.DivFondo{
+    background-color: var(--color-primary);
+    padding: 4rem;
+    h1{
+        color: white;
+        margin-bottom: 2rem;
+    }
+    p{
+        color: white;
+    }
 }

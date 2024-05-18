@@ -17,6 +17,10 @@
 /* Order */
 @layer reset, primeng;
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .displayrow{
     display: flex;
