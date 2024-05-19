@@ -1,0 +1,13 @@
+<div class="footerPage">
+  <div class="centerDiv displaycolumn">
+    <div class="displayrow"> 
+
+      @for(icon of iconLink; track icon){
+        <div class="divIcon">
+          <i class="{{icon.icon}}" (click)="GoPage(icon.link)"></i>
+        </div>
+      }
+    </div>
+      <p style="margin-top: 15px; color: var(--color-tertiary-dark);">Made By: Bryan España</p>
+  </div>
+</div>

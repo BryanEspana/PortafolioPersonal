@@ -92,8 +92,6 @@ export class HomeComponent implements OnInit {
 
   ];
   constructor() {
-    this.languageActual = localStorage.getItem('selectedLanguage') || 'espaniol';
-
   }
   
   ngOnInit() {

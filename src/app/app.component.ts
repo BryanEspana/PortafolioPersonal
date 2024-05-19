@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TopBarComponent } from './components/TopBar/TopBar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @Component({
@@ -10,7 +11,9 @@ import { TopBarComponent } from './components/TopBar/TopBar.component';
   standalone: true,
   imports: [
     RouterModule, 
-    TopBarComponent],
+    TopBarComponent,
+    FooterComponent
+  ],
 })
 export class AppComponent {
   title = 'portafolioWeb';

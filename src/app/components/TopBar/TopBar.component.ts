@@ -25,21 +25,15 @@ export class TopBarComponent implements OnInit {
     { label: 'Español', value: 'espaniol' }
   ];
 
-  value: string;
   texts: { [key: string]: string } = {};
 
   constructor() {
-    this.value = this.getStoredLanguage() || 'espaniol';
-    this.setTexts(this.value);
   }
 
   ngOnInit(): void {
-    this.value = this.getStoredLanguage() || 'espaniol';
   }
 
   onLanguageChange(): void {
-    this.storeLanguage(this.value);
-    this.setTexts(this.value);
     window.location.reload();
   }
 
@@ -57,18 +51,6 @@ export class TopBarComponent implements OnInit {
     }
   }
 
-  getStoredLanguage(): string | null {
-    if (typeof localStorage !== 'undefined') {
-      return localStorage.getItem('selectedLanguage');
-    }
-    return null;
-  }
-
-  storeLanguage(language: string): void {
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem('selectedLanguage', language);
-    }
-  }
   GoGithub(){
     window.open('https://github.com/BryanEspana', '_blank');
   }
