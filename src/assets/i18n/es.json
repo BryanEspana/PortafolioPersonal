@@ -1,0 +1,42 @@
+{
+    "TITULO_PRINCIPAL": "Desarrollador Frontend y Desarrollador de Aplicaciones Moviles",
+    "DESCRIPCION_PRINCIPAL" : "Me encanta diseñar aplicaciones webs y moviles con las ultimas tecnologias y tendencias del mercado.",
+    "PRESENTACION_PRINCIPAL" : "Hola, soy Bryan. Encantado de conocerte.",
+    "DESCRIPCION_PRESENTACION": "Desde que inicie con mi pasión por la programación hace más de 2 años, he trabajado 1 año y 6 meses en Infile S.A., he trabajado en varios proyectos freelance y proyectos personales de hackathons y he colaborado con personas talentosas para crear productos digitales para uso empresarial y de consumo. Trabajo constantemente para mejorar mis habilidades, me gusta mucho el ambito de aplicaciones moviles y web y soy alguien bastante dedicado en lo que hace.",
+
+    "CARD_NAME1":"Frontend Developer",
+    "CARD_DESCRIPCION1":"Soy un apasionado del desarrollo Frontend, me encanta crear interfaces intuitivas y funcionales.",
+    "CONOCIMIENTOS_BASICOS": "Conocimientos Básicos",
+    
+    "CARD_NAME2":"Mobile Developer",
+    "CARD_DESCRIPCION2":"Desarrollo aplicaciones móviles con las últimas tecnologías y tendencias del mercado, Flutter es uno de mis lenguajes favoritos y amo programar aplicaciones moviles",
+
+    "CARD_NAME3":"Backend Developer",
+    "CARD_DESCRIPCION3":"Desarrollo aplicaciones del lado del servidor tecnologías conocidas como Node.js, Express, MongoDB, Firebase, etc.",
+
+    "TITLE_CERTIFICACION": "Certificaciones y proyectos personales",
+
+    "BTN_CERT": "Ver proyecto",
+    
+    "CERT_NAME_1": "Astro State - Ganador a nivel nacional",
+    "CERT_DESCRIPCION_1": "Aplicación movil desarrollada para que los astronautas realicen registros en el espacio, en el cual fui ganador a nivel nacional",
+    
+    "CERT_NAME_2": "Space Access - Participante",
+    "CERT_DESCRIPCION_2": "Aplicación Web desarrollada para visualizar planetas en tiempo real con Three.js con APIs de la NASA",
+
+    "CERT_NAME_3": "Certificaciones",
+    "CERT_DESCRIPCION_3": "Drive con certificaciones de desarrollo web, movil, etc.",
+    
+    "CERT_NAME_4": "Enlace a Github personal",
+    "CERT_DESCRIPCION_4": "Navega en mi repositorio de Github para ver mis proyectos y contribuciones",
+
+    "TITLE_WORK": "Mis proyectos mas recientes",
+
+    "WORK_NAME_1": "FilPro",
+    "WORK_DESCRIPCION_1": "Portal de servicios web de facturación electronica.",
+
+    "WORK_NAME_2": "FilApp",
+    "WORK_DESCRIPCION_2": "Aplicación movil de servicios de facturación electronica."
+
+
+}

@@ -36,63 +36,10 @@ export interface DeveloperCard {
   ]
 })
 export class HomeComponent implements OnInit {
-  languageActual: string = '';
+  languageActual: string = 'espaniol';
   texts: { [key: string]: string } = {};
 
-  developerCards: DeveloperCard[] = [
-    {
-      percentage: 100,
-      icon: 'fa-solid fa-code',
-      title: 'Frontend Developer',
-      description: 'Soy un apasionado del desarrollo Frontend, me encanta crear interfaces intuitivas y funcionales.',
-      basicSkills: [
-        { name: 'HTML/CSS', icon: 'fa-brands fa-html5' },
-        { name: 'JavaScript/TypeScript', icon: 'fa-brands fa-js' },
-        { name: 'GitFlow', icon: ' fa-brands fa-git'}
-      ],
-      generalSkills: [
-        {  name: 'Angular', icon: 'fa-brands fa-angular'},
-        { name: 'React', icon: 'fa-brands fa-react'}
-      ],
-    },
-    {
-      percentage: 90,
-      icon: 'fa-solid fa-mobile-screen-button',
-      title: 'Mobile Developer',
-      description: 'I develop mobile applications with the latest technologies and trends in the market.',
-      basicSkills: [
-        { name: 'IOS', icon: ' fa-brands fa-apple'},
-        { name: 'Android', icon: ' fa-brands fa-android'},
-        { name: 'Dart', icon: 'fa-solid fa-layer-group' },
-
-        
-      ],
-      generalSkills: [
-        {  name: 'Flutter', icon: 'fa-solid fa-layer-group'},
-        { name: 'React-Native', icon: 'fa-brands fa-react'},
-        {  name: 'Kotlin', icon: ' fa-brands fa-android'},
-      ],
-    },
-    { 
-      percentage: 70,
-      icon: 'fa-solid fa-laptop-code',
-      title: 'Backend Developer',
-      description: 'I develop server-side applications with the latest technologies and trends in the market.',
-      basicSkills: [
-        { name: 'Java', icon: 'fa-brands fa-java' },
-        { name: 'JavaScript', icon: 'fa-brands fa-js' },
-        { name: 'PosgreSQL/MySQL', icon: 'fa-solid fa-database'},
-        { name: 'MongoDB/Neo4j', icon: 'fa-solid fa-database'}
-      ],
-      generalSkills: [
-        {  name: 'Node JS', icon: 'fa-brands fa-node'},
-        { name: 'Express JS', icon: 'fa-brands fa-react'}
-      ],
-    },
-
-  ];
   constructor() {
-    this.languageActual = localStorage.getItem('selectedLanguage') || 'espaniol';
 
   }
   

@@ -1,0 +1,43 @@
+{
+
+    "TITULO_PRINCIPAL": "Frontend Developer and App Development",
+    "DESCRIPCION_PRINCIPAL" : "I love designing web and mobile applications with the latest technologies and market trends.",
+    "PRESENTACION_PRINCIPAL" : "Hi, I’m Bryan. Nice to meet you.",
+    "DESCRIPCION_PRESENTACION": "Since I started my passion for programming more than 2 years ago, I have worked for 1 year and 6 months at Infile S.A., I have worked on several freelance projects and personal hackathon projects and I have collaborated with talented people to create digital products for business use and consumption. I am constantly working to improve my skills, I really like the field of mobile and web applications and I am someone who is quite dedicated to what I do.",
+
+    "CARD_NAME1":"Frontend Developer",
+    "CARD_DESCRIPCION1":"I am passionate about Frontend development, I love creating intuitive and functional interfaces.",
+    "CONOCIMIENTOS_BASICOS": "Basic Knowledge",
+    
+    "CARD_NAME2":"Mobile Developer",
+    "CARD_DESCRIPCION2":"I develop mobile applications with the latest technologies and market trends, Flutter is one of my favorite languages ​​and I love programming mobile applications",
+
+    "CARD_NAME3":"Backend Developer",
+    "CARD_DESCRIPCION3":"I develop server-side applications with well-known technologies such as Node.js, Express, MongoDB, Firebase, etc.",
+
+    "TITLE_CERTIFICACION": "Certifications and Personal proyects",
+
+    "BTN_CERT": "View proyect",
+    
+    "CERT_NAME_1": "Astro State - National winner",
+    "CERT_DESCRIPCION_1": "Mobile application developed for astronauts to make records in space, in which I was a national winner",
+    
+    "CERT_NAME_2": "Space Access - Competitor",
+    "CERT_DESCRIPCION_2": "Web application developed to visualize planets in real time with Three.js with NASA APIs",
+
+    "CERT_NAME_3": "Certifications",
+    "CERT_DESCRIPCION_3": "Drive with web development, mobile, etc. certifications.",
+    
+    "CERT_NAME_4": "Link to personal Github",
+    "CERT_DESCRIPCION_4": "Browse my Github repository to see my projects and contributions",
+
+    "TITLE_WORK": "My recent projects",
+
+    "WORK_NAME_1": "FilPro",
+    "WORK_DESCRIPCION_1": "Electronic billing web services portal.",
+
+    "WORK_NAME_2": "FilApp",
+    "WORK_DESCRIPCION_2": "Mobile application for electronic billing services."
+
+
+}
