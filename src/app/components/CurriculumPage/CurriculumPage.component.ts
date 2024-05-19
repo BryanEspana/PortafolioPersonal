@@ -32,15 +32,9 @@ export class CurriculumPageComponent implements OnInit {
       buttonLink: 'https://www.spaceappschallenge.org/2023/find-a-team/space-access/?tab=project'
     },
     {
-      image: '/assets/certifications/flutterFondo.jpg',
-      title: 'Certificación de Flutter y Dart',
-      description: 'Certificación Completa de Flutter y Dart: La guía completa para crear apps',
-      buttonLink: 'https://drive.google.com/file/d/1yPurWxGbjR7SA0tVl3XT9IZomYwFUZKz/view?usp=sharing'
-    },
-    {
-      image: '/assets/certifications/desarrolloweb.png',
-      title: 'Certificación de Desarrollo Web Completo ',
-      description: 'Certificación Completa de Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL',
+      image: '/assets/certifications/udemy.png',
+      title: 'Certificaciones',
+      description: 'Certif  icaciones de desarrollo web y movil realizados',
       buttonLink: 'https://drive.google.com/file/d/1_AUucUrgHHR3D-8Uk_fEuoD63BIE6OiB/view?usp=sharing'
     },
     {
@@ -50,8 +44,6 @@ export class CurriculumPageComponent implements OnInit {
       buttonLink: 'https://github.com/BryanEspana'
     },
     
-
-
 
   ];
   constructor() { }
