@@ -41,7 +41,7 @@ export class DeveloperCardsComponent implements OnInit {
       percentage: 90,
       icon: 'fa-solid fa-mobile-screen-button',
       title: 'Mobile Developer',
-      description: 'I develop mobile applications with the latest technologies and trends in the market.',
+      description: 'Desarrollo aplicaciones móviles con las últimas tecnologías y tendencias del mercado, Flutter es uno de mis lenguajes favoritos y amo programar aplicaciones moviles',
       basicSkills: [
         { name: 'IOS', icon: ' fa-brands fa-apple'},
         { name: 'Android', icon: ' fa-brands fa-android'},
@@ -59,7 +59,7 @@ export class DeveloperCardsComponent implements OnInit {
       percentage: 70,
       icon: 'fa-solid fa-laptop-code',
       title: 'Backend Developer',
-      description: 'I develop server-side applications with the latest technologies and trends in the market.',
+      description: 'Desarrollo aplicaciones del lado del servidor tecnologías conocidas como Node.js, Express, MongoDB, Firebase, etc.',
       basicSkills: [
         { name: 'Java', icon: 'fa-brands fa-java' },
         { name: 'JavaScript', icon: 'fa-brands fa-js' },

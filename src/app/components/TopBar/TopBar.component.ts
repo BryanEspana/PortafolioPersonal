@@ -4,6 +4,7 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
 import { ButtonModule } from 'primeng/button';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-TopBar',
@@ -19,7 +20,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
 })
 export class TopBarComponent implements OnInit {
-
+  isDarkMode: boolean = false;
   stateOptions: any[] = [
     { label: 'English', value: 'english' },
     { label: 'Español', value: 'espaniol' }
@@ -27,10 +28,15 @@ export class TopBarComponent implements OnInit {
 
   texts: { [key: string]: string } = {};
 
-  constructor() {
+  constructor(
+    private router: Router
+  ) {
   }
 
   ngOnInit(): void {
+
+    this.loadTheme();
+    console.log("darkmode: " + this.isDarkMode);
   }
 
   onLanguageChange(): void {
@@ -53,5 +59,36 @@ export class TopBarComponent implements OnInit {
 
   GoGithub(){
     window.open('https://github.com/BryanEspana', '_blank');
+  }
+  GoContactPage(){
+    this.router.navigate(['/contact']);
+  }
+  GoToMenuPage(){
+    this.router.navigate(['']);
+  }
+
+  toggleDarkMode(){
+    console.log("Toggle dark mode: " + this.isDarkMode)
+    this.applyTheme();
+  }
+  loadTheme() {
+    const darkMode = localStorage.getItem('darkMode');
+    if (darkMode === 'true') {
+      this.isDarkMode = true;
+      console.log("dark mode: " + darkMode);
+    } else {
+      this.isDarkMode = false;
+      console.log("dark mode: " + darkMode);
+    }
+    this.applyTheme();
+  }
+  applyTheme() {
+    if (this.isDarkMode) {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'true');
+    } else {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'false');
+    }
   }
 }

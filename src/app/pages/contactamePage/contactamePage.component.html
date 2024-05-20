@@ -1,3 +1,30 @@
-<p>
-  contactamePage works!
-</p>
+<div class="divPage">
+  <h1>Gracias por querer contactarme <br> ¿Con que puedo ayudarte?</h1>
+
+  <div class="formGroup">
+    <div class="displayrow">
+      <div class="inputFloat justify-content-center">
+        <p-floatLabel>
+          <input id="name" type="text" pInputText [(ngModel)]="name" />
+          <label for="name">Nombre</label>
+        </p-floatLabel>
+      </div>
+      <div class="inputFloat justify-content-center">
+        <p-floatLabel>
+          <input id="email" type="text" pInputText [(ngModel)]="email" />
+          <label for="email">Correo electrónico</label>
+        </p-floatLabel>
+      </div>
+    </div>
+    <div class="inputFloat justify-content-center">
+        <textarea 
+          rows="5"
+          cols="53"
+          pInputTextarea 
+          [(ngModel)]="message">
+      </textarea>
+    </div>
+    <p-button label="Enviar solicitud" [rounded]="true" (onClick)="SendEmail()" />
+  </div>
+
+</div>

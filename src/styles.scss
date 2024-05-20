@@ -3,7 +3,56 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
+body.dark-mode {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    .iconTab{
+        color: white;
+    }
+    button{
+        background-color: white !important;
+        color: var(--color-primary);
+    }
+    button:hover{
+        background-color: var(--color-secondary) !important;
+        color: var(--color-primary);
+    }
+    .circleImg2{
+        border: 10px solid var(--color-primary);
+    }
+    .circleImg{
+        border: 10px solid var(--color-background);
+    }
+    .barra{
+        background-color: var(--color-secondary);   
+    }
+    .DivFondo{
+        background-color: var(--color-secondary);
+        color: var(--color-primary) !important;
+        h1{
+            color: var(--color-primary) !important;
+        }
+        p{
+            color: var(--color-primary) !important;
+        }
+    }
+    .card{
+        background-color: var(--color-secondary);
 
+        
+    }
+    .footerPage{
+        background-color: var(--color-secondary);
+    }
+    .imgLogo{
+        background-color: var(--color-secondary) !important;
+        padding: 5px;
+        border-radius: 5px;
+    }
+  }
+  
+  /* Añade más estilos para otros elementos si es necesario */
+  
 
 :root {
     --color-primary: #222831 !important;
