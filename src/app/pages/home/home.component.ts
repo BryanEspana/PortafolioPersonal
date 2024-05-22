@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { ProgressBarModule } from 'primeng/progressbar';
 // For dynamic progressbar demo
@@ -40,11 +40,27 @@ export class HomeComponent implements OnInit {
   texts: { [key: string]: string } = {};
 
 
-  constructor() {
+  constructor(
+    private el: ElementRef, 
+    private renderer: Renderer2) {
   }
   
   ngOnInit() {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          this.renderer.addClass(entry.target, 'animate__animated');
+          this.renderer.addClass(entry.target, 'animate__fadeIn');
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    const elements = this.el.nativeElement.querySelectorAll('.animate-on-scroll');
+    elements.forEach((element: Element) => observer.observe(element));
+  
     this.setTexts(this.languageActual);
+    
   }
 
   setTexts(languageActual: string): void {
