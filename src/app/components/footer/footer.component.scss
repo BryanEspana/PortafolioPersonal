@@ -1,0 +1,25 @@
+.footerPage{
+    background-color: var(--color-primary);
+    margin-top: 3rem;
+    padding: 2rem 15%;
+}
+.divIcon{
+    margin:0  1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-background);
+    padding: 0.5rem;
+    border-radius: 50%;
+    i{
+        font-size: 24px;
+        color: var(--color-primary);
+    }
+}
+.divIcon:hover{
+    background-color: var(--color-primary-dark);
+    cursor: pointer;
+    i{
+        color: var(--color-background);
+    }
+}

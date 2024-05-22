@@ -1,0 +1,20 @@
+<div class="pageProyects">
+  <h1> Experiencias Laborales</h1>
+  <div class="divOfCards2">
+    @for(card of CardsProyects; track card){
+      <div class="cardWork">
+        <img src="{{card.image}}" class="imgWork">
+        <div class="overlay">
+          <div class="text">
+            <h2>{{card.title}}</h2>
+            <p style="margin: 0 1rem;">{{card.description}}</p>
+              <button pButton label="View project" [rounded]="true" (click)="navigateToLink(card.buttonLink)"></button>
+         
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>
+
+

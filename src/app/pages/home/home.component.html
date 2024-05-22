@@ -1,37 +1,25 @@
 <div class="home">
   <div class="marginComplete" style="margin-top: 3rem;">
-    <h1>{{ texts['title'] }}</h1>
-    <p>{{texts['description']}}</p>
+    <h1 class="animate__animated animate__fadeInDown">{{ texts['title'] }}</h1>
+    <p  class="animate__animated animate__fadeInDown">{{texts['description']}}</p>
   </div>
   <div class="centerDiv">
     <div class="circleImg2">
-      <div class="barra"></div>
       <div class="circleImg">
         <img src="/assets/images/unnamed2.png" class="imgAvatar">
       </div>
     </div>
   </div>
+  
   <div class="DivFondo">
     <div class="marginComplete">
-      <h1>Hi, I’m Bryan. Nice to meet you.</h1>
-      <p>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops.</p>
+      <h1>Hola, soy Bryan España.</h1>
+      <p>Desde que inicie con mi pasión por la programación hace más de 2 años, he trabajado 1 año y 6 meses en Infile S.A., he trabajado en varios proyectos freelance y proyectos personales de hackathons y he colaborado con personas talentosas para crear productos digitales para uso empresarial y de consumo. Trabajo constantemente para mejorar mis habilidades, me gusta mucho el ambito de aplicaciones moviles y web y soy alguien bastante dedicado en lo que hace.</p>
     </div>
   </div>
 
-  <app-developerCards></app-developerCards>
-
-    <div>
-      <h1> My Recent Work</h1>
-      <div class="cardWork">
-        <img src="/assets/proyects/filpro.png" class="imgWork">
-        <div class="overlay">
-          <div class="text">
-            <h2>FilPro</h2>
-            <p>Portal de servicios de facturación electronica.</p>
-            <p-button label="View proyect" [rounded]="true" />          
-          </div>
-        </div>
-      </div>
-    </div>
+  <app-developerCards class="animate-on-scroll"></app-developerCards>
+  <app-CurriculumPage class="animate-on-scroll"></app-CurriculumPage>
+  <app-developerProyects class="animate-on-scroll"></app-developerProyects>
     
 </div>

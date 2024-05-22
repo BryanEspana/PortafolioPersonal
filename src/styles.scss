@@ -2,8 +2,58 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+@import 'animate.css';
 
+body.dark-mode {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    .iconTab{
+        color: white;
+    }
+    button{
+        background-color: white !important;
+        color: var(--color-primary);
+    }
+    button:hover{
+        background-color: var(--color-secondary) !important;
+        color: var(--color-primary);
+    }
+    .circleImg2{
+        border: 10px solid var(--color-primary);
+    }
+    .circleImg{
+        border: 10px solid var(--color-background);
+    }
+    .barra{
+        background-color: var(--color-secondary);   
+    }
+    .DivFondo{
+        background-color: var(--color-secondary);
+        color: var(--color-primary) !important;
+        h1{
+            color: var(--color-primary) !important;
+        }
+        p{
+            color: var(--color-primary) !important;
+        }
+    }
+    .card{
+        background-color: var(--color-secondary);
 
+        
+    }
+    .footerPage{
+        background-color: var(--color-secondary);
+    }
+    .imgLogo{
+        background-color: var(--color-secondary) !important;
+        padding: 5px;
+        border-radius: 5px;
+    }
+  }
+  
+  /* Añade más estilos para otros elementos si es necesario */
+  
 
 :root {
     --color-primary: #222831 !important;
@@ -27,6 +77,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+.displaycolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 .marginComplete{
     margin: 2rem 15%;
 }
@@ -35,7 +91,15 @@ button{
     background: var(--color-primary) !important;
     border: var(--color-primary) !important;
 }
-
+button:hover{
+    background: var(--color-secondary) !important;
+    border: var(--color-secondary) !important;
+    color: var(--color-primary);
+}
+p{
+    padding: 0;
+    margin: 0;
+}
 .centerDiv{
     display: flex;
     justify-content: center;
@@ -103,4 +167,24 @@ button{
     border-radius: 50%;
     margin: auto;
     margin-bottom: 1rem;
+}
+
+
+.divOfCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.divOfCards2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }

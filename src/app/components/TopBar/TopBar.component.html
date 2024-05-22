@@ -1,13 +1,19 @@
 <div class="displayrow marginComplete">
-  <img src="/assets/logo.png" class="imgLogo">
+  <img src="/assets/logo.png" class="imgLogo" (click)="GoToMenuPage()">
   <div class="displayrow">
-    <p-selectButton 
+    <label class="switch">
+      <input type="checkbox" class="input__check" [(ngModel)]="isDarkMode" (change)="toggleDarkMode()">
+      <span class="slider"></span>
+    </label>
+    
+    <!--<p-selectButton 
     [options]="stateOptions" 
-    [(ngModel)]="value" 
     optionLabel="label" 
     optionValue="value" 
-    (onChange)="onLanguageChange()"/>
-    <p-button label="Contactame" [rounded]="true" />
+    (onChange)="onLanguageChange()"/>-->
+    <i class="fa-brands fa-github iconTab" (click)="GoGithub()"></i>
+    <p-button class="animate__animated animate__pulse" label="Contactame" [rounded]="true" (onClick)="GoContactPage()" />
 
   </div>
+
 </div>
