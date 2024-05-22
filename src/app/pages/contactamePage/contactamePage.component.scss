@@ -8,7 +8,10 @@ h1{
     margin: 1rem;
 }
 .formGroup{
-    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 
 }
 .divPage{
