@@ -56,7 +56,7 @@ export class HomeComponent implements OnInit {
     } else if (languageActual === 'espaniol') {
       this.texts = {
         title: 'Desarrollador Frontend y Desarrollador de Aplicaciones Moviles',
-        description: 'Me encanta diseñar aplicaciones webs y moviles con las ultimas tecnologias y tendencias del mercado.'
+        description: 'Estudiante de la Universidad del Valle de Guatemala.'
       };
     }
   }

@@ -36,7 +36,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "../node_modules/scrollreveal/dist/scrollreveal.js"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -105,7 +104,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "../node_modules/scrollreveal/dist/scrollreveal.js"
             ]
           }
         }
