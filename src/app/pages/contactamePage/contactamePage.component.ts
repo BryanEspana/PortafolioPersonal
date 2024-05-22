@@ -5,7 +5,6 @@ import { FloatLabelModule } from 'primeng/floatlabel';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 
-
 @Component({
   selector: 'app-contactamePage',
   templateUrl: './contactamePage.component.html',
@@ -20,17 +19,20 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
   ]
 })
 export class ContactamePageComponent implements OnInit {
-  name: string = '';
-  email: string = '';
-  message: string = '';
+  contact = {
+    email: '',
+    description: ''
+  };
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
-  SendEmail() {
-    console.log('Name: ' + this.name);
-    console.log('Email: ' + this.email);
-    console.log('Message: ' + this.message);
+  onSubmit(contactForm: any) {
+    if (contactForm.valid) {
+      // El formulario se enviará automáticamente debido a la acción del formulario en HTML
+      console.log('Formulario enviado', this.contact);
+    } else {
+      console.error('Formulario no válido');
+    }
   }
 }
