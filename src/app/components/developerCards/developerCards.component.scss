@@ -5,8 +5,11 @@
 }
 
 .skills{
-    justify-self: start;
-    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
     p{
         margin: 0.5rem;
         color: var(--color-primary);

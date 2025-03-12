@@ -31,6 +31,12 @@ export class DeveloperProyectsComponent implements OnInit {
       description: 'Aplicación movil de servicios de facturación electronica.',
       buttonLink: 'https://apps.apple.com/gt/app/infile-filapp/id6447701126?l=en-GB&platform=iphone'
     },
+    {
+      image: '/assets/proyects/banguat.png',
+      title: 'Billetes GT',
+      description: 'Aplicación movil hecha para el banco de Guatemala para visualizar los billetes del país utilizando objetos 3D.',
+      buttonLink: 'https://apps.apple.com/gt/app/billetesgt/id6550923490?l=en-GB'
+    },
 
 
   ];

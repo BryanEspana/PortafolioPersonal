@@ -34,7 +34,8 @@ export class DeveloperCardsComponent implements OnInit {
       ],
       generalSkills: [
         {  name: 'Angular', icon: 'fa-brands fa-angular'},
-        { name: 'React', icon: 'fa-brands fa-react'}
+        { name: 'React', icon: 'fa-brands fa-react'},
+        { name: 'Ruby on Rails', icon: 'fa-solid fa-gear'}
       ],
     },
     {
@@ -63,8 +64,10 @@ export class DeveloperCardsComponent implements OnInit {
       basicSkills: [
         { name: 'Java', icon: 'fa-brands fa-java' },
         { name: 'JavaScript', icon: 'fa-brands fa-js' },
+        { name: 'Ruby', icon: 'fa-solid fa-gear'},
         { name: 'PosgreSQL/MySQL', icon: 'fa-solid fa-database'},
-        { name: 'MongoDB/Neo4j', icon: 'fa-solid fa-database'}
+        { name: 'MongoDB/Neo4j', icon: 'fa-solid fa-database'},
+
       ],
       generalSkills: [
         {  name: 'Node JS', icon: 'fa-brands fa-node'},
